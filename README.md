@@ -116,13 +116,10 @@ Depois de criar as pastas, a segunda linha de comando move os arquivos-fonte exi
 mv programa.c programa.h main.c programa_test.c src/
 ```
 
-`programa.c:` Arquivo que contém a implementação do código principal do programa.
-
-`programa.h:` Arquivo de cabeçalho associado ao código-fonte do programa, contendo declarações e definições de funções e variáveis.
-
-`main.c:` Arquivo que contém a função principal (main) do programa, onde o programa é inicializado e executado.
-
-`programa_test.c:` Arquivo que contém os testes do programa, usados para verificar seu comportamento e funcionalidade.
+-   **programa.c:** Arquivo que contém a implementação do código principal do programa.
+-   **programa.h:** Arquivo de cabeçalho associado ao código-fonte do programa, contendo declarações e definições de funções e variáveis.
+-   **main.c:** Arquivo que contém a função principal (main) do programa, onde o programa é inicializado e executado.
+-   **programa_test.c:** Arquivo que contém os testes do programa, usados para verificar seu comportamento e funcionalidade.
 
 ### 3. Compilar com Arquivos Organizados
 

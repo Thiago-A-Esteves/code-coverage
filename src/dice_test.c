@@ -19,12 +19,10 @@ void test_roll_dice() {
     int encontrou_par = 0, encontrou_impar = 0;
     int soma;
 
-    // Teste com valores predeterminados
     for (int i = 0; i < 1000; i++) {
         soma = roll_dice();
-        assert(soma >= 3 && soma <= 18); // Verifica que o valor da soma está no intervalo esperado
+        assert(soma >= 3 && soma <= 18);
 
-        // Garantimos que testamos ambos os caminhos (par e ímpar)
         if (eh_par(soma)) {
             encontrou_par = 1;
         } else {
@@ -32,26 +30,24 @@ void test_roll_dice() {
         }
 
         if (encontrou_par && encontrou_impar) {
-            break; // Já cobrimos os dois ramos, saímos do loop
+            break;
         }
     }
 
-    // Verifica explicitamente que ambos os caminhos foram seguidos
+
     assert(encontrou_par == 1);
     assert(encontrou_impar == 1);
 
-    // Testa valores limites ou casos extremos, forçando resultados específicos
-    soma = roll_dice(); // Pode gerar um valor específico
-    assert(soma >= 3 && soma <= 18); // Verifica se a soma continua no intervalo esperado
+    soma = roll_dice();
+    assert(soma >= 3 && soma <= 18);
 
-    // Garantimos que a soma seja de um número par e ímpar durante a execução dos testes
     if (eh_par(soma)) {
         encontrou_par = 1;
     } else {
         encontrou_impar = 1;
     }
 
-    assert(encontrou_par == 1 || encontrou_impar == 1); // Assegura que pelo menos um caminho foi seguido
+    assert(encontrou_par == 1 || encontrou_impar == 1);
 
     printf("Testes da função roll_dice() passaram!\n");
 }

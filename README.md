@@ -2,7 +2,7 @@
 
 # Sumário
 
-1. [Introdução](#introdução)
+1. [Introdução](#Introdução)
 2. [Funcionalidades Principais](#funcionalidades-principais)
 3. [Pontos Positivos e Negativos](#pontos-positivos-e-negativos)
    - [Pontos Positivos](#pontos-positivos)
@@ -23,6 +23,7 @@
      - [6. Gerar o Relatório de Cobertura](#6-gerar-o-relatório-de-cobertura)
 6. [Conclusão](#conclusão)
 
+# Introdução
 
 O `gcovr` é uma ferramenta de linha de comando essencial para desenvolvedores que desejam monitorar e melhorar a cobertura de código de seus projetos em C e C++. Utilizando os arquivos de cobertura gerados pelo `gcov` (parte do GCC), o `gcovr` produz relatórios detalhados em diversos formatos, facilitando a identificação de áreas do código que não estão sendo adequadamente testadas.
 

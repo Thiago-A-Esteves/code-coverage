@@ -4,15 +4,14 @@
 
 1. [Introdução](#Introdução)
 2. [Funcionalidades Principais](#funcionalidades-principais)
-3. [Pontos Positivos e Negativos](#pontos-positivos-e-negativos)
    - [Pontos Positivos](#pontos-positivos)
    - [Pontos Negativos](#pontos-negativos)
-4. [Instalação](#instalação)
+3. [Instalação](#instalação)
    - [Linux](#linux)
    - [Windows](#windows)
    - [macOS](#macos)
    - [Verificando a Instalação](#verificando-a-instalação)
-5. [Projeto de Cobertura de Código com `gcovr`](#projeto-de-cobertura-de-código-com-gcovr)
+4. [Projeto de Cobertura de Código com `gcovr`](#projeto-de-cobertura-de-código-com-gcovr)
    - [Estrutura de Diretórios](#estrutura-de-diretórios)
    - [Passo a Passo](#passo-a-passo)
      - [1. Criar as Pastas](#1-criar-as-pastas)
@@ -21,7 +20,7 @@
      - [4. Criar os Executáveis](#4-criar-os-executáveis)
      - [5. Rodar os Testes](#5-rodar-os-testes)
      - [6. Gerar o Relatório de Cobertura](#6-gerar-o-relatório-de-cobertura)
-6. [Conclusão](#conclusão)
+5. [Conclusão](#conclusão)
 
 # Introdução
 

@@ -1,5 +1,29 @@
 # Gcovr - Ferramenta de Cobertura de Código
 
+# Sumário
+
+1. [Introdução](#introdução)
+2. [Funcionalidades Principais](#funcionalidades-principais)
+3. [Pontos Positivos e Negativos](#pontos-positivos-e-negativos)
+   - [Pontos Positivos](#pontos-positivos)
+   - [Pontos Negativos](#pontos-negativos)
+4. [Instalação](#instalação)
+   - [Linux](#linux)
+   - [Windows](#windows)
+   - [macOS](#macos)
+   - [Verificando a Instalação](#verificando-a-instalação)
+5. [Projeto de Cobertura de Código com `gcovr`](#projeto-de-cobertura-de-código-com-gcovr)
+   - [Estrutura de Diretórios](#estrutura-de-diretórios)
+   - [Passo a Passo](#passo-a-passo)
+     - [1. Criar as Pastas](#1-criar-as-pastas)
+     - [2. Mover os Arquivos-Fonte](#2-mover-os-arquivos-fonte)
+     - [3. Compilar com Arquivos Organizados](#3-compilar-com-arquivos-organizados)
+     - [4. Criar os Executáveis](#4-criar-os-executáveis)
+     - [5. Rodar os Testes](#5-rodar-os-testes)
+     - [6. Gerar o Relatório de Cobertura](#6-gerar-o-relatório-de-cobertura)
+6. [Conclusão](#conclusão)
+
+
 O `gcovr` é uma ferramenta de linha de comando essencial para desenvolvedores que desejam monitorar e melhorar a cobertura de código de seus projetos em C e C++. Utilizando os arquivos de cobertura gerados pelo `gcov` (parte do GCC), o `gcovr` produz relatórios detalhados em diversos formatos, facilitando a identificação de áreas do código que não estão sendo adequadamente testadas.
 
 ## Funcionalidades Principais

@@ -127,7 +127,11 @@ Compile os arquivos-fonte com a opção --coverage para gerar os arquivos necess
 
 ```bash
 g++ --coverage -c src/programa.c -o build/programa.o
+```
+```bash
 g++ --coverage -c src/main.c -o build/main.o
+```
+```bash
 g++ --coverage -c src/programa_test.c -o build/programa_test.o
 ```
 
@@ -137,6 +141,8 @@ Após compilar os arquivos-fonte, crie os executáveis:
 
 ```bash
 g++ --coverage -o bin/programa build/main.o build/programa.o
+```
+```bash
 g++ --coverage -o bin/programa_test build/programa_test.o build/programa.o
 ```
 
@@ -146,6 +152,8 @@ Execute os testes com o comando abaixo:
 
 ```bash
 bin/programa
+```
+```bash
 bin/programa_test
 ```
 
@@ -158,4 +166,6 @@ gcovr --branches --html --html-details -o coverage/cobertura.html
 ```
 
 # Conclusão
-Com esses passos, você organizou seu projeto de maneira eficiente, compilou o código com suporte à cobertura, executou os testes e gerou um relatório de cobertura. A estrutura de pastas facilita o gerenciamento do código-fonte, dos arquivos compilados, dos executáveis e dos relatórios de cobertura.
+Com os passos apresentados, você conseguiu estruturar seu projeto de forma eficiente, adicionando cobertura de código, compilando o programa com o suporte necessário, executando os testes e gerando relatórios detalhados. Esse processo não só melhora a qualidade do seu código, mas também proporciona maior confiança nos testes realizados, permitindo identificar facilmente as partes do código que ainda precisam de atenção.
+
+Organizar o projeto dessa forma facilita o gerenciamento dos diferentes arquivos e torna o processo de monitoramento da cobertura de código mais fluido, especialmente em projetos maiores. O uso do gcovr traz uma abordagem simples e eficaz para integrar essa análise no seu fluxo de trabalho, seja em desenvolvimento local ou em pipelines de integração contínua.
